@@ -77,7 +77,7 @@ Dialogos = [ "No me hables, estoy descansando", " ¡esta zona es la mejor para c
             "¡Hagamos un concurso de avistamiento de aves, a ver quién encuentra más especies!", "¡Estoy tan agradecido de poder disfrutar de la naturaleza en buena compañía!",
             "¡El sonido del viento entre las hojas es música para el alma!", "¡Vamos a explorar y descubrir nuevos rincones de esta maravillosa zona verde!", 
             "¿Qué opinan de organizar un taller de reciclaje creativo para niños?", "¡Este es el lugar perfecto para hacer yoga y conectarse con uno mismo!",
-            "Parece que lloverá", "Linux > Windows, son factos", 
+            "Parece que lloverá", "Linux > Windows, factos", 
             "¿Han visto qué hermoso atardecer se puede apreciar desde aquí?", "¡Cuidemos cada planta y animal como si fuera parte de nuestra familia!", 
             "¡Me encanta ver cómo la vida florece en cada rincón de este lugar!", "¿Alguien trajo binoculares? Podemos observar aves desde lejos sin molestarlas.", 
             "¡Recuerden llevar agua y mantenernos hidratados mientras disfrutamos de la naturaleza!","¡Cada árbol cuenta su historia, vamos a escucharlas y aprender juntos!",
@@ -86,7 +86,7 @@ Dialogos = [ "No me hables, estoy descansando", " ¡esta zona es la mejor para c
 
 # Puntos de experiencia
 
-Experiencia = 0
+Experiencia = 1
 
 # Lista de números para inicializar
 
@@ -428,9 +428,10 @@ def Simulación(texto):
         print("(-_-) Simulación finalizada, gracias por jugar")
 
         if Experiencia >= 10000:
-            return "(-_-) Mi nombre es ... no tengo xd"
+            return " (-_-) Mi nombre es ... no tengo xd"
         else:
-            return "No alcanzaste los 10000 puntos."
+            print()
+            return " (-_-) No alcanzaste los 10000 puntos."
 
     else:
         return Simulación(input(" (-_-) Digitaste un caracter inválido, ¡Inténtalo de nuevo! ---> "))
