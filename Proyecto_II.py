@@ -1,4 +1,4 @@
-# Proyecto II, hecho por Alexander Bonilla Figueroa y Adrián Rodríguez Quirós...
+# Proyecto II, hecho por Alexander Bonilla Figueroa y Adrián Rodríguez Quirós 
 
 import random
 import time
@@ -13,7 +13,7 @@ def Intro(textos, ini = 0, ind = 0, res = ""):
             # Se imprime el caracter actual
             print(res + textos[ini][ind], end = "", flush = True)
             # Se da un intervalo de tiempo antes de imprimir el siguiente caracter
-            time.sleep(0.004)
+            time.sleep(0.04)
             # Se pasa al siguiete caracter
             return Intro(textos, ini, ind + 1, res)
         else:
@@ -425,6 +425,7 @@ def Simulación(texto):
         print("                          .-+#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+-.                          ")
         print("                                :-=+*##%%@@@@@@@@%%##*+=-:.                               ")
         print()
+        
         print("(-_-) Simulación finalizada, gracias por jugar")
 
         if Experiencia >= 10000:
