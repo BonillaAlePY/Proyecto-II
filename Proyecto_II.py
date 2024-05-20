@@ -82,7 +82,7 @@ Dialogos = [ "No me hables, estoy descansando", " ¡esta zona es la mejor para c
             "¡Me encanta ver cómo la vida florece en cada rincón de este lugar!", "¿Alguien trajo binoculares? Podemos observar aves desde lejos sin molestarlas.", 
             "¡Recuerden llevar agua y mantenernos hidratados mientras disfrutamos de la naturaleza!","¡Cada árbol cuenta su historia, vamos a escucharlas y aprender juntos!",
             "¿Qué opinan de organizar una jornada de limpieza y restauración de senderos?", "¡Hoy es un buen día para agradecer a la tierra por darnos tanto!", 
-            "¡Funda se para! Cada acción eco-amigable suma para un mundo mejor."]
+            "¡Funda se para! pero cada acción eco-amigable suma para un mundo mejor."]
 
 # Puntos de experiencia
 
