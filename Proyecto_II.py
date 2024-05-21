@@ -86,7 +86,7 @@ Dialogos = [ "No me hables, estoy descansando", " ¡esta zona es la mejor para c
 
 # Puntos de experiencia
 
-Experiencia = 1
+Experiencia = 0
 
 # Lista de números para inicializar
 
